@@ -1,0 +1,47 @@
+html { overflow-y: scroll; }
+
+html, body { display: block; background-color: #1f2833; color: #c5c6c7; width: 100%; height: 100%; }
+
+h1, h2, h3 { display: block; margin: 0; padding: 0 10px 20px 10px; }
+
+h4 { padding: 0 10px 0 10px; }
+
+p { display: block; margin: 0; padding: 0 10px 20px 10px; text-align: justify; text-justify: inter-word; }
+
+a { color: #45a29e; text-decoration: none; }
+
+a:hover { color: #2e6e6b; }
+
+canvas { display: block; width: 100%; height: 100%; }
+
+.bg-custom { background-color: #010c10; }
+
+.bg-socials { background-color: #2e6e6b; }
+
+.grid-wrapper { display: grid; min-height: 100%; grid-template-rows: auto 1fr auto; grid-template-columns: 100%; }
+
+.header-container { display: flex; justify-content: center; height: 300px; width: 100%; background-color: #010c10; background-size: cover; background-attachment: fixed; background-position: bottom; }
+
+.header-container h1 { display: block; margin: auto; color: white; text-shadow: 3px 3px gray; }
+
+.main-content { display: block; padding: 20px; }
+
+#appsTable_wrapper { padding-left: 10px; }
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate { color: #c5c6c7; }
+
+.dataTables_wrapper .dataTables_length select, .dataTables_wrapper .dataTables_filter input { background-color: #c5c6c7; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button { color: #c5c6c7 !important; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dcdcdc)); background: -moz-linear-gradient(top, white 0%, #dcdcdc 100%); background: -webkit-linear-gradient(top, white 0%, #dcdcdc 100%); background: -ms-linear-gradient(top, white 0%, #dcdcdc 100%); background: -o-linear-gradient(top, white 0%, #dcdcdc 100%); background: linear-gradient(to bottom, white 0%, #c5c6c7 100%); }
+
+.table-dark { --bs-table-striped-color: #c5c6c7; color: #c5c6c7; }
+
+.item-grid { display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; }
+
+.item { margin: 10px 10px; padding: 3%; border: solid 2px #2e6e6b; flex-grow: 1; flex-shrink: 1; width: 300px; }
+
+.page-footer { position: relative; bottom: 0; left: 0; width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */
